@@ -101,7 +101,7 @@ namespace ProjectBpl.API.Controllers
                     Password = Guid.NewGuid().ToString(),
                     Username = username
 
-                }, provider = "google");
+                }, provider);
                 // No user exists with this email address, we create a new one
                 
 
