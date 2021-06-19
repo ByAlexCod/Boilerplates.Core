@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ProjectBpl.Tests": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "BPL_CONNECTION_STRING_ENV": "Server=localhost\\SQLEXPRESS02;Database=master;Trusted_Connection=True;"
+      }
+    }
+  }
+}
